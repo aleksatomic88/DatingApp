@@ -23,7 +23,7 @@ namespace DatingApp.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            // // Add Sqlite DB
+            // Add Sqlite DB
             // services.AddDbContext<DataContext>(ctx => ctx.UseSqlite(Configuration.GetConnectionString("DatingAppSqlite")));
             // Shorthand for GetSection("ConnectionStrings")[DefaultConnection].
             
